@@ -1,0 +1,41 @@
+@media only screen and (max-width: 400px) {
+  .yellow-box {
+    transform: translate(-1230px, 0);
+  }
+  .image-main {
+    display: none;
+  }
+
+  body {
+    padding: 20px;
+  }
+}
+
+@media only screen and (min-width: 400px) and (max-width: 900px) {
+  .hide-image {
+    border-radius: 999px;
+    display: flex !important;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .yellow-box {
+    transform: translate(-1230px, 0);
+  }
+
+  .image-main {
+    height: 250px;
+    width: 250px;
+    border-radius: 999px;
+    object-fit: cover;
+    border: 5px grey solid;
+  }
+
+  .move-down {
+    flex-direction: column;
+  }
+
+  .down-to-main {
+    flex-direction: column;
+  }
+}
